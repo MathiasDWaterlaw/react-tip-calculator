@@ -1,0 +1,15 @@
+.Card {
+  background-color: var(--White);
+  padding: 3rem;
+  border-radius: 25px;
+  position: relative;
+  display: flex;
+}
+
+.Card section {
+  border-radius: 15px;
+}
+
+section.right {
+  background-color: var(--Very-dark-cyan);
+}
