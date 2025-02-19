@@ -1,6 +1,6 @@
-export default function InputComponent({ _value, setvalue }) {
+export default function InputComponent({ _value, setValue }) {
   const handleChange = (event) => {
-    setvalue(event.target.value);
+    setValue(event.target.value);
   };
   return (
     <div>
